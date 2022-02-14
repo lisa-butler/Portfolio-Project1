@@ -7,6 +7,47 @@
     }
 
 body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+h1, h2 {
     font-family: Arial, sans-serif;
-    font-weight: 300;
-    color: white;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#title {
+    float: left;
+    font-size: 280%;
+    margin-left: 30px;
+}
+
+#navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#navbar, #title {
+    line-height: 75px;
+}
+
+#navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#navbar a {
+    text-decoration:none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
