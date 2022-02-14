@@ -1,5 +1,12 @@
-#cover-image {
-    height: 600;
-    width: 100%;
-    background: url('../images/Divers_descending.jpg') no-repeat center center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    }
+
+body {
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    color: white;
