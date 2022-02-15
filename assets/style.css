@@ -77,7 +77,7 @@ h1, h2 {
 /*Dive sites */
 
 
-#county {
+.county {
     display: flex;
     justify-content: center;
 }
