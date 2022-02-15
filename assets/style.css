@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1, h2 {
+    font-family: Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #252525;
+}
+
+#title {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    font-size: 300%;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 900;
+    color: teal;
+}
+
+#title-link {
+    text-decoration: none;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 110%;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    
+    
+}
+
+#navbar li {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin-right: 30px;
+    
+}
+
+#navbar a {
+    text-decoration:none;
+    color: inherit;
+}
+
+#navbar a:hover {
+    color: teal;
+}
+
+.active {
+   border-bottom: 3px solid #3a3a3a;
+}
+
+/*Cover image*/
+
+#cover-image-outer {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#cover-image {
+    height: inherit;
+    width: inherit;
+    background: url(images/Divers_descending.jpg) no-repeat center center;
+}
+
+/*Dive sites */
+
+
+.county {
+    display: flex;
+    justify-content: center;
+}
+
+h3 {
+    display: flex;
+    margin-left: 30px;
+    margin-bottom: 60px;
+    margin-top: 40px;
+}
+
+
+h4 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+
+}
+
+p {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.dive-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+#content-container {
+    display: flex;
+    height: 600px;
+    width: 600px;
+    margin-top: 0;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding-left: 30px;
+    margin-bottom: 0;
+   
+}
+
+.content {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    
+}
+
+#dive-image {
+    height: 500px;
+    width: 700px;
+    display: flex;
+    background: url('images/divers_above.jpeg') no-repeat center center;
+    background-size: contain;
+    margin-left: 60px;
+    margin-right: 30px;
+    margin-top: 0px;
+   
+}
+
+.image-text-container {
+    display: flex;
+    
+    
+  
+}
+
+.map {
+    text-align: center;
+    display: inline;
+}
