@@ -1,6 +1,5 @@
 
 body {
-  margin: 0;
   font-family: Arial, sans-serif;
 }
 
@@ -78,12 +77,29 @@ h1, h2 {
     justify-content: center;
     
 }
-
+/*
+#location {
+    display: flex;
+}
+*/
 h3 {
     display: flex;
     margin-left: 30px;
 }
 
+
+h4 {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    te
+}
+
+p {
+    display: flex;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
 .dive-info {
     display: flex;
     justify-content: center;
@@ -94,8 +110,11 @@ h3 {
 
 #content-container {
     display: flex;
-    height: 500px;
-    width: 500px;
+    height: 400px;
+    width: 400px;
+    margin-top: 40px;
+    margin-left: 30px;
+   
 }
 
 .content {
@@ -103,4 +122,25 @@ h3 {
     list-style: none;
     flex-direction: column;
     
+}
+
+#dive-image {
+    height: 500px;
+    width: 500px;
+    display: flex;
+    background: url('images/divers_above.jpeg') no-repeat center center;
+    background-size: contain;
+    margin-left: 40px;
+    margin-right: 40px;
+   
+}
+
+.image-text-container {
+    display: flex;
+    justify-content: center;
+}
+
+.map {
+    text-align: center;
+    display: inline;
 }
