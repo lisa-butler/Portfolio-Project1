@@ -79,10 +79,28 @@ h1, h2 {
     
 }
 
+h3 {
+    display: flex;
+    margin-left: 30px;
+}
+
 .dive-info {
     display: flex;
     justify-content: center;
     flex-direction: row;
     justify-content: space-around;
     list-style: none;
+}
+
+#content-container {
+    display: flex;
+    height: 500px;
+    width: 500px;
+}
+
+.content {
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    
 }
