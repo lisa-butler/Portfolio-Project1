@@ -1,6 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
-
-
 
 body {
   margin: 0;
@@ -55,4 +52,37 @@ h1, h2 {
 
 .active {
    border-bottom: 3px solid #3a3a3a;
+}
+
+/*Cover image*/
+
+#cover-image-outer {
+    height: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+#cover-image {
+    height: inherit;
+    width: inherit;
+    background: url(images/Divers_descending.jpg) no-repeat center center;
+}
+
+/*Dive sites */
+
+
+#county {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.dive-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
 }
