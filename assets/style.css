@@ -114,6 +114,7 @@ p {
     width: 400px;
     margin-top: 40px;
     margin-left: 30px;
+    padding-left: 60px;
    
 }
 
@@ -130,14 +131,15 @@ p {
     display: flex;
     background: url('images/divers_above.jpeg') no-repeat center center;
     background-size: contain;
-    margin-left: 40px;
+    margin-left: 70px;
     margin-right: 40px;
+    
    
 }
 
 .image-text-container {
     display: flex;
-    justify-content: center;
+  
 }
 
 .map {
