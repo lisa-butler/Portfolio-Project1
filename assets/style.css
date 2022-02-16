@@ -77,7 +77,7 @@ h1, h2 {
 /*Dive sites */
 
 
-.county {
+.county-name {
     display: flex;
     justify-content: center;
 }
@@ -113,10 +113,10 @@ p {
     margin-top: 30px;
 }
 
-#content-container {
+.content-container {
     display: flex;
-    height: 600px;
-    width: 600px;
+    height: 700px;
+    width: 700px;
     margin-top: 0;
     margin-left: 20px;
     margin-right: 40px;
@@ -129,20 +129,61 @@ p {
     display: flex;
     list-style: none;
     flex-direction: column;
-    
 }
 
-#dive-image {
+/*Images*/
+
+.dive-image {
     height: 500px;
     width: 700px;
     display: flex;
-    background: url('images/divers_above.jpeg') no-repeat center center;
     background-size: contain;
     margin-left: 60px;
     margin-right: 30px;
     margin-top: 0px;
+
    
 }
+
+#image-1 {
+    background: url('images/jellyfish.jpeg') no-repeat center center;
+    background-size: contain;
+    
+}
+
+#image-2 {
+    background: url('images/fish.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#image-3 {
+    background: url('images/diver_ascending.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#image-4 {
+    background: url('images/sunset.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+#image-5 {
+    background: url('images/divers_above.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+#image-6 {
+    background: url('images/sardines1.jpg') no-repeat center center;
+    background-size: contain;
+}
+
+#image-7 {
+    background: url('images/dusty4.jpeg') no-repeat center center;
+    background-size: contain;
+}
+
+
+
+
 
 .image-text-container {
     display: flex;
