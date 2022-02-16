@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 
+
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -130,6 +132,11 @@ p {
     list-style: none;
     flex-direction: column;
     text-align: justify;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-style: solid;
+    padding-right: 5px;
+    padding-left: 5px;
 }
 
 /*Images*/
@@ -141,8 +148,9 @@ p {
     background-size: contain;
     margin-left: 60px;
     margin-right: 30px;
-    margin-top: 0px;
-    object-fit: fill;
+    margin-top: 15px;
+   
+   
 
    
 }
@@ -174,7 +182,7 @@ p {
 }
 
 #image-6 {
-    background: url('images/sardines1.jpg') no-repeat center center;
+    background: url('images/diver2.JPG') no-repeat center center;
     background-size: contain;
 }
 
@@ -184,14 +192,8 @@ p {
 }
 
 
-
-
-
 .image-text-container {
     display: flex;
-    
-    
-  
 }
 
 .map {
