@@ -60,6 +60,12 @@ h1, h2 {
    border-bottom: 3px solid #3a3a3a;
 }
 
+/*Quick links*/
+
+.quick-link {
+    text-decoration: none;
+}
+
 /*Cover image*/
 
 #cover-image-outer {
