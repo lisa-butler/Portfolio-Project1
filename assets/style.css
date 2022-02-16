@@ -199,7 +199,18 @@ p {
     display: flex;
 }
 
+/*Google maps link*/
 .map {
     text-align: center;
     display: inline;
+}
+
+/*Videos*/
+
+.video {
+    display: flex;
+    margin-top: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
