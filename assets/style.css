@@ -63,8 +63,9 @@ h1, h2 {
 
 /*Adding background image*/
 
+/*
 #bg-image {
-    background: url(images/underwater.jpg);
+    background: url(images/d.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -72,18 +73,31 @@ h1, h2 {
     width: 100%;
     background-size:cover;
     margin-left: 0px;
-    margin-right: 0px;
-
-
-   
-    
+    margin-right: 0px; 
 }
+*/
 
 /*Quick links*/
 
-.quick-link {
-    text-decoration: none;
+#quick-link {
+   
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 110%;
+    letter-spacing: 4px;
+    padding-top: 20px;
+    
 }
+
+.quick-link {
+     text-decoration: none;
+    font-weight: 400;
+    
+}
+
+
 
 /*Cover image*/
 
@@ -266,7 +280,7 @@ p {
     width: 100%;
 }
 
-#photo-gallery {
+.gallery {
     margin-bottom: 20px;
     margin-top: 20px;
     display: flex;
@@ -281,4 +295,9 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+}
+
+.youtube {
+    margin-top: 30px;
+    
 }
