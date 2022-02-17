@@ -253,6 +253,26 @@ p {
     display: inline;
 }
 
+/*Photos for gallery page*/
+
+#photos {
+    clear: both;
+    line-height: 0;
+    column-count: 4;
+    column-gap: 0;
+}
+
+#photos > img {
+    width: 100%;
+}
+
+#photo-gallery {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
 /*Videos*/
 
 .video {
