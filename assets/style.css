@@ -385,6 +385,17 @@ p {
     display: inline;
 }
 
+#return-to-top {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    padding: 0;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    color: teal;
+}
+
 /*Photos for gallery page*/
 
 #photos {
@@ -400,7 +411,7 @@ p {
 
 .gallery {
     margin-bottom: 20px;
-    margin-top: 20px;
+    margin-top: 40px;
     display: flex;
     justify-content: center;
 }
