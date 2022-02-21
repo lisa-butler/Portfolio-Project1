@@ -145,6 +145,8 @@ h1, h2 {
     text-decoration: none;
 }
 
+
+
 /*Adding background image*/
 
 /*
@@ -430,6 +432,81 @@ p {
     margin-top: 30px;
     
 }
+
+
+/* Form */
+
+.form-section {
+    clear: left;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+}
+
+.signup-form {
+    margin: 30px;
+    color: #fff;
+    background-color: rgba(60, 60, 60, 0.6);
+    max-width: 650px;
+    position: absolute;
+    left: 20%;
+    padding:30px;
+}
+
+.signup-form > h2 {
+    color: #fafafa;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.text-input {
+    background: transparent;
+    color: #fafafa;
+    width: 36%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius:2px;
+}
+
+#your-comment {
+    background: transparent;
+    color: #fafafa;
+    width: 70%;
+    height: 70px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #fafafa;
+    border-radius:2px;
+    
+}
+
+#email {
+    width: 70%;
+}
+
+.text-input:hover {
+    border: 2px;
+    border-color: #f16c6b;
+}
+
+.send-button {
+    margin-top: 30px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 100%;
+    background-color: #f16c6b;
+    color: #fafafa;
+    display: block;
+}
+
+.send-button:hover {
+    background-color: #fafafa;
+    color: #f16c6b;
+}
+    
+
 
 /*Footer*/
 
