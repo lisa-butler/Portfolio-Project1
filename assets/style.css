@@ -449,7 +449,7 @@ p {
     background-color: rgba(60, 60, 60, 0.6);
     max-width: 650px;
     position: absolute;
-    left: 20%;
+    left: 19%;
     padding:30px;
 }
 
@@ -463,9 +463,9 @@ p {
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 36%;
+    width: 33%;
     height: 25px;
-    margin: 5px 0 20px 0;
+    margin: 5px 10px 20px 10px;
     border: 1px solid #fafafa;
     border-radius:2px;
 }
@@ -473,16 +473,16 @@ p {
 #your-comment {
     background: transparent;
     color: #fafafa;
-    width: 70%;
+    width: 79%;
     height: 70px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 20px 10;
     border: 1px solid #fafafa;
     border-radius:2px;
     
 }
 
 #email {
-    width: 70%;
+    width: 79%;
 }
 
 .text-input:hover {
@@ -492,6 +492,7 @@ p {
 
 .send-button {
     margin-top: 30px;
+    margin-left: 200px;
     border-radius: 2px;
     padding: 15px 32px;
     text-align: center;
