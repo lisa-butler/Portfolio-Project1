@@ -563,6 +563,29 @@ footer {
         font-size: medium;
     }
     
+    .location {
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+    
+    .content-container {
+        margin-left: 0; 
+        padding-left: 0; 
+        margin-bottom: 50px;
+    }
+    
+    .dive-info {
+        padding-left: 0;
+    }
+    
+    h3 {
+        margin-left: 0;
+    }
+    
+    #photos {
+        column-count: 2;
+    }
 }
 
 /*For small screenn sizes 800px and down*/
