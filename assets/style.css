@@ -536,52 +536,40 @@ footer {
 
 /*Media queries copied straight from love running for now*/
 
-*For medium screen sizes from 950px wide and down*/
-@media screen and (max-width: 950px) {
-    
-    #navbar {
-        clear: left;
-        float: left;
-        margin-left: 30px;
-        margin-bottom: 20px;
-        line-height: 25px;
-    }
-    
-    #welcome, description {
-        left: 0;
-    }
-    
-    /*Got this far styled*/
-    
+/*For medium screen sizes from 950px wide and down*/
+@media screen and (max-width: 950px) and (min-width: 800px) {
     #hero-images {
-        width: 50%;
-        height: 400px;
-        margin: 0 auto;
-        align-content: space-around;
+        height: 300px;
+    }
+
+    .hero {
+        height: 300px;
     }
     
-    .left-about-heading, .right-about-heading {
-        width: inherit;
+    #description > h3 {
+        margin: 0;
     }
     
-    .left-about-heading h2, .right-about-heading h2 {
-        width: 100%;
-        text-align: center;
+    .text-block {
+        bottom: 10px;
+        right: 20px;
     }
     
-    .left-about-heading p, .right-about-heading p {
-        text-align: center;
-        padding: 0, 20px;
+    #quick-link {
+        margin-left: 60px;
     }
     
-    #photos {
-        column-count: 3;
+    .quick-link {
+        font-size: medium;
     }
+    
 }
 
 /*For small screenn sizes 800px and down*/
 
 @media screen and (max-width: 800px) {
-    #photos {
-        column-count: 2;
+
+    
+  
+    
 }
