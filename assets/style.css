@@ -586,6 +586,17 @@ footer {
     #photos {
         column-count: 2;
     }
+    
+    #description {
+        text-align: center;
+    }
+    
+    .signup-form {
+        position: inherit;
+        
+    margin-left: 55px;
+    }
+
 }
 
 /*For small screenn sizes 800px and down*/
