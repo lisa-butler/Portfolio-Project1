@@ -59,6 +59,7 @@ h1, h2 {
 
 .active {
    border-bottom: 3px solid #3a3a3a;
+    text-decoration: none;
 }
 
 #welcome {
@@ -553,6 +554,20 @@ footer {
     color: #3a3a3a;
 }
 
+#thankyou {
+    text-align: center;
+    margin-top: 300px;
+    font-size: 400%;
+    color: teal;
+}
+
+#return {
+    text-align: center;
+    align-content: center;
+    text-decoration: none;
+    font-size: 150%;
+    
+}
 
 /*Media queries copied straight from love running for now*/
 
@@ -644,7 +659,7 @@ footer {
  
 }
     #navbar li {
-        font-size: 15px;
+        font-size: 11px;
         text-align: center;
         margin: 0;
         font-weight: bold;
@@ -749,10 +764,16 @@ footer {
         display: block;
     }
     .content-container {
-        margin-left: 0; 
+        margin: 0; 
         padding-left: 0; 
         margin-bottom: 50px;
-        width:auto;  
+        width:97%;  
+        text-align: center;
+    }
+    
+    .content > li {
+        margin-left: 5px;
+        font-size: 15px;
     }
 
     .content {
