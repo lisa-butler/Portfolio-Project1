@@ -614,7 +614,7 @@ footer {
         border-width: 3px;
 }
     .hero {
-        height: 140px;
+        height: 130px;
     }
     
     #welcome {
@@ -639,9 +639,14 @@ footer {
     
     .text-block {
         text-align: center;
-        font-size: 15px;
+        font-size: 15px; 
+            margin-left: 20%;
+    margin-right: 20%;
+    position: unset;
+    }
     
-      
+    #block-sect{
+        margin-top: 90px;
     }
     
     #question {
@@ -698,7 +703,9 @@ footer {
         margin-left: 10px;
         margin-right: 10px;
     }
-    
+    .image-text-container{
+        display: block;
+    }
     .content-container {
         margin-left: 0; 
         padding-left: 0; 
@@ -730,6 +737,9 @@ footer {
     }
     .dive-image {
         align-content: center;
+        width: 80%;
+        height: 200px;
+    
     }
     
     #photos {
