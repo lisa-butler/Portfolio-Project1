@@ -534,15 +534,17 @@ p {
 }
 
 .send-button {
+    width: 50%;
+    margin-left: 22%;
     margin-top: 30px;
-    margin-left: 200px;
     border-radius: 2px;
-    padding: 15px 32px;
+    padding: 15px 25px;
     text-align: center;
     font-size: 100%;
     background-color: teal;
     color: #fafafa;
     display: block;
+    text-decoration: none;
 }
 
 .send-button:hover {
@@ -590,7 +592,13 @@ footer {
     align-content: center;
     text-decoration: none;
     font-size: 100%;
-    
+        width: 87%;
+}
+
+#rtnhome {
+    margin: auto;
+  width: 30%;
+  padding: 10px;
 }
 
 /*Media queries copied straight from love running for now*/
@@ -903,7 +911,8 @@ footer {
         font-size: 100%;
         margin: 0;
         margin-left: 53px;
-        padding: 5px;
+        padding: 0px;
+        text-decoration: none;
     
 }
     
