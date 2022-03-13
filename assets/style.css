@@ -596,7 +596,6 @@ footer {
   padding: 10px;
 }
 
-/*Media queries copied straight from love running for now*/
 
 /*For medium screen sizes from 950px wide and down*/
 @media screen and (max-width: 950px) and (min-width: 800px) {
@@ -725,9 +724,9 @@ footer {
     .text-block {
         text-align: center;
         font-size: 15px; 
-            margin-left: 20%;
-    margin-right: 20%;
-    position: unset;
+        margin-left: 20%;
+        margin-right: 20%;
+        position: unset;
     }
     
     #block-sect{
@@ -744,10 +743,6 @@ footer {
         font-size: 15px;  
         margin-bottom: 50px;
 }
-    .social-networks {
-        margin: 0;
-        padding: 0;
-    } 
     
     #footer {
         height: 50px;
@@ -755,6 +750,18 @@ footer {
     
     .social-networks {
         margin-top: 20px;
+        margin-bottom: 10px;
+        padding: 0;
+    }
+    
+    .social-networks i {
+    font-size: 120%;
+    margin: 1%;
+    padding: 5%;
+    color: #3a3a3a;
+}
+    #return-to-top {
+        font-size: 90%;
     }
     
     #quick-link {
@@ -797,6 +804,9 @@ footer {
         margin-bottom: 50px;
         width:97%;  
         text-align: center;
+        display: inline-block;
+        height: inherit;
+        margin-bottom: 20px;
     }
     
     .content > li {
@@ -805,13 +815,7 @@ footer {
     }
     
     .dropbtn {
-    background-color: teal;
-    color: white;
-    padding: 16px;
     font-size: 12px;
-    border: none;
-    cursor: pointer;
-    width: 80%;
     }
     
     .content {
@@ -825,20 +829,35 @@ footer {
         text-align: center;
     }
     
-    .dive-info > li {
-        margin: 2px;
+    .headings {
+        font-size: 12px;
+        margin-left: 10px;
     }
+    
+    .tblock {
+        font-size: 11px;
+        text-align: left;
+        margin-left: 10px;
+    }
+    
+    .map {
+        font-size: 11px;
+        text-align: left;
+    }
+
     
     h3 {
         margin-left: 0;
     }
     
+    .social-networks {
+        
+    }
    
     .dive-image {
         align-content: center;
         width: 80%;
         height: 200px;
-    
     }
     
     #photos {
@@ -847,12 +866,11 @@ footer {
     
     .video {
         column-count: 1;
-        
         margin: 5px;
        
 }
     .youtube{
-        margin-top: 5px;
+        margin-top: 10px;
     }
     
     .youtube > iframe {
