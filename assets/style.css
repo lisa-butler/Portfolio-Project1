@@ -542,11 +542,7 @@ p {
     text-decoration: none;
 }
 
-.send-button:hover {
-    background-color: steelblue;
-   
-}
-    
+
 
 
 /*Footer*/
@@ -845,13 +841,8 @@ footer {
         text-align: left;
     }
 
-    
     h3 {
         margin-left: 0;
-    }
-    
-    .social-networks {
-        
     }
    
     .dive-image {
@@ -887,15 +878,15 @@ footer {
         height: 140px;
     }
     
-    
     #description {
         text-align: center;
     }
     
+    
     .signup-form {
         position: inherit;
-        margin: 20px;
-        padding: 10px;
+        margin: 10px;
+        padding: 5px;
     }
     
     .signup-form > h2 {
@@ -909,17 +900,20 @@ footer {
     }
     
     .text-input {
-        width: 21%;
+        width: 19%;
         height: 13px;
-        margin: 5px;
+        margin: 1px;
+        margin-bottom: 10px;
     }
     
     #email {
-        width: 94%;
+        width: 62%;
+        height: 13px;
     }
     
     #your-comment{
-        width: 94%;
+        width: 95%;
+        height: 13px;
     }
     
      .signup-form > p {
@@ -932,18 +926,17 @@ footer {
         text-align: center;
         font-size: 100%;
         margin: 0;
-        margin-left: 53px;
-        padding: 0px;
+        margin-left: 60px;
+        padding: 3px;
         text-decoration: none;
-    
 }
-    
+
     #yes {
         margin-bottom: 15px;
     }
   
     .form-section {
         display: inline-block;
-        max-height: 400px;
+        height: inherit;
     }
 }
