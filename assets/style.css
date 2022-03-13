@@ -939,4 +939,14 @@ footer {
         display: inline-block;
         height: inherit;
     }
+    
+    #rtnhome {
+        font-size: 80%;
+        align-content: center;
+       margin-left: 16%;
+    }
+    
+    #return {
+        width: 150%;
+    }
 }
