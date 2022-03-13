@@ -933,13 +933,20 @@ footer {
         text-align: center;
         font-size: 100%;
         margin: 0;
-        margin-left: 60px;
+        margin-left: 25%;
         padding: 3px;
         text-decoration: none;
 }
 
-    #yes {
+    #yes{
         margin-bottom: 15px;
+        font-size: 13px;
+    }
+    
+    .radbtn {
+        font-size: 13px;
+        margin-left: 5px;
+        
     }
   
     .form-section {
