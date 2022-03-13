@@ -53,21 +53,29 @@
             </div>
         </div>
     </section>
+    <div id="grid-wrapper">
+        <div></div>
+        <div>
         <section class="form-section">
         <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
             <h2>Get in Touch</h2>
-            <label for="fname">First Name</label>
-            <input id="fname" name="first_name" type="text" class="text-input" required>
+            <div>
+                <label for="fname">First Name</label>
+                <input id="fname" name="first_name" type="text" class="text-input" required>
+                <label for="lname">Last Name</label>
+                <input id="lname" name="last_name" type="text" class="text-input" required>
+            </div>
+            <div>
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email_address" class="text-input" required>
+            </div>
             
-            <label for="lname">Last Name</label>
-            <input id="lname" name="last_name" type="text" class="text-input" required>
+            <div>
+                 <label for="your-comment">Your Message</label>
+                <input type="text" id="your-comment" name="your-comment" class="text-input" required>
             
-            <label for="email">Email Address</label>
-            <input type="email" id="email" name="email_address" class="text-input" required>
-            <br>
-            <label for="your-comment">Your Message</label>
-            <input type="text" id="your-comment" name="your-comment" class="text-input" required>
-            
+            </div>
+           
             <p>Would you like to recieve email notification when new sites are added?</p>
             <label for="yes">Yes</label>
             <input type="radio" id="yes" name="email-preference" value="yes" required>
@@ -78,8 +86,11 @@
             <a class="send-button" href="thankyou.html"> Send Message </a>
             
         </form>
+            
     </section>
-  
+            </div>
+        <div></div>
+  </div>
     
      <footer>
         <ul class="social-networks">

@@ -480,6 +480,11 @@ p {
 
 /* Form */
 
+#grid-wrapper {
+  display: grid;
+  grid-template-columns: 15% 70% 15%;
+}
+
 .form-section {
     clear: left;
     background-size: cover;
@@ -491,10 +496,8 @@ p {
     margin: 50px;
     color: #fff;
     background-color: rgba(60, 60, 60, 0.6);
-    max-width: 650px;
-    position: absolute;
-    left: 19%;
-    padding:30px;
+    padding:15px;
+    
 }
 
 .signup-form > h2 {
@@ -507,9 +510,9 @@ p {
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 33%;
+    width: 35%;
     height: 25px;
-    margin: 5px 10px 20px 10px;
+    margin: 5px 5px 20px 5px;
     border: 1px solid #fafafa;
     border-radius:2px;
 }
@@ -517,7 +520,7 @@ p {
 #your-comment {
     background: transparent;
     color: #fafafa;
-    width: 79%;
+    width: 80%;
     height: 50px;
     margin: 5px 0 20px 10;
     border: 1px solid #fafafa;
@@ -525,7 +528,7 @@ p {
 }
 
 #email {
-    width: 79%;
+    width: 80%;
 }
 
 .send-button {
