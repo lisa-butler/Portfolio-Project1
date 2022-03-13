@@ -194,7 +194,7 @@ h1, h2 {
     border: none;
     cursor: pointer;
     width: 80%;
-/*    margin-left: 10%;*/
+
   
 
 }
@@ -528,11 +528,6 @@ p {
     width: 79%;
 }
 
-.text-input:hover {
-    border: 2px;
-    border-color: #f16c6b;
-}
-
 .send-button {
     width: 50%;
     margin-left: 22%;
@@ -643,7 +638,8 @@ footer {
     }
     
     .dive-info {
-        padding-left: 0;
+        padding-right: 40px;
+        padding-left: 0px;
     }
     
     h3 {
@@ -807,7 +803,17 @@ footer {
         margin-left: 5px;
         font-size: 15px;
     }
-
+    
+    .dropbtn {
+    background-color: teal;
+    color: white;
+    padding: 16px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+    width: 80%;
+    }
+    
     .content {
         text-align: center;
         margin: 0;
@@ -815,7 +821,7 @@ footer {
 }
     .dive-info {
         padding: 0;
-        font-size: 12px;
+        font-size: 10px;
         text-align: center;
     }
     
@@ -827,9 +833,7 @@ footer {
         margin-left: 0;
     }
     
-    .content {
-        
-    }
+   
     .dive-image {
         align-content: center;
         width: 80%;
