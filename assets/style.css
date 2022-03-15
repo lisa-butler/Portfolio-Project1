@@ -320,7 +320,7 @@ p {
 .content-container {
     display: flex;
     height: 400px;
-    width: 700px;
+    max-width: 50%;
     margin-top: 0;
     margin-left: 10px;
     margin-right: 20px;
@@ -797,11 +797,12 @@ footer {
         margin: 0; 
         padding-left: 0; 
         margin-bottom: 50px;
-        width:97%;  
+        max-width: 98%; 
         text-align: center;
         display: inline-block;
         height: inherit;
         margin-bottom: 20px;
+        
     }
     
     .content > li {
