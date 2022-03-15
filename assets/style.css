@@ -194,9 +194,6 @@ h1, h2 {
     border: none;
     cursor: pointer;
     width: 80%;
-
-  
-
 }
 
 .dropdown {
@@ -205,7 +202,6 @@ h1, h2 {
     align-content: center;
         width: 80%;
     margin-left: 10%;
-
 }
 
 .dropdown-content {
@@ -227,7 +223,10 @@ h1, h2 {
     justify-content: space-around;
 }
 
-.dropdown-content a:hover {background-color:lightgray;}
+.dropdown-content a:hover {
+    background-color:lightgray;
+}
+
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -245,9 +244,7 @@ h1, h2 {
     justify-content: space-around;
     font-size: 110%;
     letter-spacing: 4px;
-    padding-top: 20px;
-    
-    
+    padding-top: 20px; 
 }
 
 .quick-link {
@@ -255,8 +252,6 @@ h1, h2 {
     font-weight: 500;
     color: teal;
     font-size: 18px;
-    
-    
 }
 
 
@@ -275,7 +270,7 @@ h1, h2 {
 #cover-image {
     height: inherit;
     width: inherit;
-/*    background: url(images/Divers_descending.jpg) no-repeat center center;*/
+
 }
 
 /*Dive sites */
@@ -544,6 +539,8 @@ p {
     display: block;
     text-decoration: none;
 }
+
+
 
 
 
