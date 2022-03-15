@@ -507,7 +507,7 @@ width: 50%;
 .text-input {
     background: transparent;
     color: #fafafa;
-    width: 35%;
+    width: 95%;
     height: 25px;
     margin: 5px 5px 20px 5px;
     border: 1px solid #fafafa;
@@ -517,7 +517,7 @@ width: 50%;
 #your-comment {
     background: transparent;
     color: #fafafa;
-    width: 80%;
+    width: 95%;
     height: 50px;
     margin: 5px 0 20px 10;
     border: 1px solid #fafafa;
@@ -525,7 +525,7 @@ width: 50%;
 }
 
 #email {
-    width: 80%;
+    width: 95%;
 }
 
 .send-button {
@@ -540,6 +540,10 @@ width: 50%;
     color: #fafafa;
     display: block;
     text-decoration: none;
+}
+
+.form-lable{
+    display: block;
 }
 
 
@@ -652,15 +656,7 @@ footer {
         display: grid;
         grid-template-columns: 5% 90% 5%;
     }
-    .text-input {
-        width: 32.5%;
-    }
-    #email {
-        width: 78%;
-    }
-    #your-comment{
-        width: 78%;
-    }
+
 
 }
 
@@ -881,7 +877,7 @@ footer {
     
     .signup-form {
         position: inherit;
-        margin: 5px;
+        margin: 40px 5px 5px 5px;
         padding: 5px;
     }
     
@@ -895,22 +891,7 @@ footer {
         padding-left: 5px;
     }
     
-    .text-input {
-        width: 19%;
-        height: 13px;
-        margin: 1px;
-        margin-bottom: 10px;
-    }
-    
-    #email {
-        width: 62%;
-        height: 13px;
-    }
-    
-    #your-comment{
-        width: 95%;
-        height: 13px;
-    }
+
     
      .signup-form > p {
         font-size: 13px;
@@ -939,7 +920,6 @@ footer {
     }
   
     .form-section {
-        display: inline-block;
         height: inherit;
     }
     
