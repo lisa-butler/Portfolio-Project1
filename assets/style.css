@@ -544,6 +544,7 @@ width: 50%;
 
 .form-lable{
     display: block;
+
 }
 
 
@@ -711,8 +712,8 @@ footer {
     .text-block {
         text-align: center;
         font-size: 15px; 
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 30%;
+        margin-right: 30%;
         position: unset;
             margin-top: 10px;
 
@@ -840,6 +841,8 @@ footer {
         align-content: center;
         width: 80%;
         height: 50vw;
+        margin-left: 9vw;
+    margin-right: 9vw;
     }
     
     #photos {
