@@ -45,6 +45,8 @@ h1, h2 {
     list-style-type: none;
     margin-right: 30px;
     font-weight: 600px;
+        font-size: 3vw;
+
     
 }
 
@@ -369,7 +371,7 @@ p {
 
 .dive-image {
     height: 400px;
-    width: 700px;
+width: 50%;
     display: flex;
     background-size: contain;
     margin-left: 30px;
@@ -594,7 +596,7 @@ footer {
 
 
 /*For medium screen sizes from 950px wide and down*/
-@media screen and (max-width: 950px) and (min-width: 800px) {
+@media screen and (max-width: 950px) and (min-width: 700px) {
     #hero-images {
         height: 300px;
     }
@@ -667,7 +669,7 @@ footer {
 
 /*For small screenn sizes 800px and down*/
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 700px) {
     
     
     #title {
@@ -681,7 +683,7 @@ footer {
  
 }
     #navbar li {
-        font-size: 11px;
+        font-size: 3vw;
         text-align: center;
         margin: 0;
         font-weight: bold;
