@@ -24,7 +24,7 @@
  7. [Credits](#credits)
  8. [Content](#content)  
 
-
+(assets/images/readme-images/picture1.jpg)
 
 ## User Experience 
 
@@ -111,10 +111,10 @@ The white background was chosen as it enabled the content to be very legible and
 
 The colors eventually selected for use were;
 
-    * White #FFF -used for the background.
-    * Grey #D3D3D3 -used for hover over functions and detailing.
-    * Teal #008080 -used for heading, sub-headings and buttons.
-    * Black #000 -used for text as black on white is widely known as the most legible combination of colors.
+* White #FFF -used for the background.
+* Grey #D3D3D3 -used for hover over functions and detailing.
+* Teal #008080 -used for heading, sub-headings and buttons.
+* Black #000 -used for text as black on white is widely known as the most legible combination of colors.
 
 The white background helped the banner images and images in the gallery page to pop out as well as heightening the pop of color in the icon used.
 
@@ -208,8 +208,8 @@ If I was to get the opportunity to build this site again to become an actual liv
 
 The languages used in this project were;
 
-    * HTML5
-    * CSS3
+* HTML5
+* CSS3
 
 ### **Frameworks/Libraries/programs:**
 
@@ -226,33 +226,33 @@ The languages used in this project were;
 
 <a name="test"></a>
 
-## **Troubleshooting:**
+### **Troubleshooting:**
 Many of the issues that arouse and required troubleshooting were due to item positioning on the screen. This was an issue while creating the site initially and later when formatting the site to make it responsive for mobile devices. In retrospect, if I was creating this site gain, I would use grid throughout as a positioning tool. As it stands, I started by using Flexbox but consistently found it was not having the desired outcome and ultimately used Grid in the final stages of responsive design editing. 
 Better planning before beginning development would be beneficial too. I would have liked to use Bootstrap to make the site more responsive.
 
-## **Testing:**
+### **Testing:**
 Testing was mostly done by me and some friends, three of which are software developers, to determine the usability and functionality of the site.
 
-    **Testing links and forms:**
+**Testing links and forms:**
     
-    * Navigation links are working and bring the user to the correct page. Yes.
-    * The home page “Find out more here” link is working and tkes user to dive sites page. Yes.
-    * The “Contact us here” link on the homepage is working and takes user to the contact page. Yes.
-    * The social media links all work and take users to the correct social media. Yes.
-    * The dropdown menu options each link the user to the correct portion of the dive sites page. Yes.
-    * The google maps link for the dive site works for each site and takes user to the correct location on maps. Yes.
-    * The “Return to top” link at the bottom of the page brings the user back to the top of the dive sites page. Yes.
-    * The Youtube videos take the user to the correct video on Youtube when their title is clicked on. Yes.
-    * The “Send Message” button takes the user to the thankyou.html page when clicked on. 
-    * The “Return to site” button takes the user back to the home page of the site when clicked on.
+* Navigation links are working and bring the user to the correct page. Yes.
+* The home page “Find out more here” link is working and tkes user to dive sites page. Yes.
+* The “Contact us here” link on the homepage is working and takes user to the contact page. Yes.
+* The social media links all work and take users to the correct social media. Yes.
+* The dropdown menu options each link the user to the correct portion of the dive sites page. Yes.
+* The google maps link for the dive site works for each site and takes user to the correct location on maps. Yes.
+* The “Return to top” link at the bottom of the page brings the user back to the top of the dive sites page. Yes.
+* The Youtube videos take the user to the correct video on Youtube when their title is clicked on. Yes.
+* The “Send Message” button takes the user to the thankyou.html page when clicked on. 
+* The “Return to site” button takes the user back to the home page of the site when clicked on.
     
-    **Testing other elements:** 
+**Testing other elements:** 
     
-    * Images were all present and viewable without any gaps. Yes.
-    * The videos played both embedded and in Youtube. Yes.
-    * The dive sites cards fitted the content and text was legible and formatted in an intuitive reading style. Yes.
-    * Navigation of the site was intuitive. Yes.
-    * The dive sites dropdown was clarly a dropdown. Changed to have a drop down symbol.
+* Images were all present and viewable without any gaps. Yes.
+* The videos played both embedded and in Youtube. Yes.
+* The dive sites cards fitted the content and text was legible and formatted in an intuitive reading style. Yes.
+* Navigation of the site was intuitive. Yes.
+* The dive sites dropdown was clarly a dropdown. Changed to have a drop down symbol.
 
 ------------------------------------------------------------------
 
@@ -260,7 +260,7 @@ Testing was mostly done by me and some friends, three of which are software deve
 
 <a name="bugs"></a>
 
-## **Bugs Found:**
+### **Bugs Found:**
 
 * In the contact form, on mousing over the input boxes, they merged with the background and disappeared. This was solved by removing the hover function.
 * Content on dive sites page was squashed together when on mobile view (screens less than 800px in width). Issue solved by rearranging image and text positioning.
@@ -299,7 +299,7 @@ Testing was mostly done by me and some friends, three of which are software deve
 * Some code used in the Love Running Challenge was used and changed for purpose.
 
 
-### **Acknowledgements:*** 
+### **Acknowledgements:** 
 
 * My mentor Gerard McBride for pointers and overall reviewing.
 * My software developer friends (Joshua Butler-Overstock Ireland and Glenn Gilmartin-Overstock Ireland) for their advice and patience.
