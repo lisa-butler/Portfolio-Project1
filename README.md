@@ -30,7 +30,7 @@
 ## User Experience 
 
 <a name="ux"></a>
-###**Pre project planning:** 
+**Pre project planning:** 
 Before starting this project, I considered several options, ultimately landing on the concept of a shore dive database site as this is something Ireland does not have. I also have a passion for diving and a range of dive sites and images from them that I could use for my project.
 I explored other diving websites in Ireland, such as diving.ie for ideas for color theme and structure.
 For the purpose of this project, I chose to include just seven of potentially hundreds of sites in order to demonstrate the nature of the site within the time frame of the project creation.
@@ -108,10 +108,12 @@ Background: It was decided after some deliberation not to have a background imag
 The white background was chosen as it enabled the content to be very legible and to stand out for the user, making the site more navigatable.
 
 The colors eventually selected for use were;
-White #FFF -used for the background.
-Grey #D3D3D3 -used for hover over functions and detailing.
-Teal #008080 -used for heading, sub-headings and buttons.
-Black #000 -used for text as black on white is widely known as the most legible combination of colors.
+
+*White #FFF -used for the background.
+*Grey #D3D3D3 -used for hover over functions and detailing.
+*Teal #008080 -used for heading, sub-headings and buttons.
+*Black #000 -used for text as black on white is widely known as the most legible combination of colors.
+
 The white background helped the banner images and images in the gallery page to pop out as well as heightening the pop of color in the icon used.
 
 **Fonts:**
