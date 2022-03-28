@@ -24,7 +24,7 @@
  7. [Credits](#credits)
  8. [Content](#content)  
 
-(assets/images/readme-images/picture1.jpg)
+(assets/images/readme-images/Picture1.jpg)
 
 ## User Experience 
 
