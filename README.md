@@ -112,10 +112,10 @@ The white background was chosen as it enabled the content to be very legible and
 
 The colors eventually selected for use were;
 
-*White #FFF -used for the background.
-*Grey #D3D3D3 -used for hover over functions and detailing.
-*Teal #008080 -used for heading, sub-headings and buttons.
-*Black #000 -used for text as black on white is widely known as the most legible combination of colors.
+    * White #FFF -used for the background.
+    * Grey #D3D3D3 -used for hover over functions and detailing.
+    * Teal #008080 -used for heading, sub-headings and buttons.
+    * Black #000 -used for text as black on white is widely known as the most legible combination of colors.
 
 The white background helped the banner images and images in the gallery page to pop out as well as heightening the pop of color in the icon used.
 
@@ -191,10 +191,10 @@ This page contains a link to the index.html, the home page to return the user to
 
 If I was to get the opportunity to build this site again to become an actual live site, there are some changes that I would like to make.
 
-*Dive sites: This is the page that I would like to make the most changes to. As there are many more than seven dive sites in Ireland, a continuous list would not be a very viable option. I would instead have a drop-down menu for each county and these links would take the user to separate pages with their own drop-down menus for each dive site.
-*The main dive sites page would have a map with clickable pins depicting the sites that would link the user to the site.
-*I would have a search option and the option to filter by depth, skill level, location etc.
-*I was also considering the option of having a “comments” section for each dive to allow divers to make suggestions and leave comments about specific sites.
-*Media: Media would be rearranged to allow for a write up about each image, ie. Location it was taken in, time of year, life that is shown etc. Videos would be the same.
-*Contact page: There is no back end to the contact page, so for now, hitting “send message” just links the user to a thank you page with a link back to the home page. If this became a live site the thank you would ideally self-direct back to the home page after a certain time frame has passed.
-*Other elements to change: A potential of having a user account option so that users could save dives they want to do, comment on dives and possibly even a separate place to log dives.
+* Dive sites: This is the page that I would like to make the most changes to. As there are many more than seven dive sites in Ireland, a continuous list would not be a very viable option. I would instead have a drop-down menu for each county and these links would take the user to separate pages with their own drop-down menus for each dive site.
+* The main dive sites page would have a map with clickable pins depicting the sites that would link the user to the site.
+* I would have a search option and the option to filter by depth, skill level, location etc.
+* I was also considering the option of having a “comments” section for each dive to allow divers to make suggestions and leave comments about specific sites.
+* Media: Media would be rearranged to allow for a write up about each image, ie. Location it was taken in, time of year, life that is shown etc. Videos would be the same.
+* Contact page: There is no back end to the contact page, so for now, hitting “send message” just links the user to a thank you page with a link back to the home page. If this became a live site the thank you would ideally self-direct back to the home page after a certain time frame has passed.
+* Other elements to change: A potential of having a user account option so that users could save dives they want to do, comment on d dives and possibly even a separate place to log dives.
