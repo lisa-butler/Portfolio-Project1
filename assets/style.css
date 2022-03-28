@@ -238,6 +238,10 @@ h1, h2 {
   background-color:dimgrey;
 }
 
+#drop-icon {
+    margin-bottom: 1vw;
+}
+
 #quick-link {
    
     display: flex;
