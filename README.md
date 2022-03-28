@@ -30,7 +30,8 @@
 ## User Experience 
 
 <a name="ux"></a>
-**Pre project planning:** 
+### **Pre project planning** 
+
 Before starting this project, I considered several options, ultimately landing on the concept of a shore dive database site as this is something Ireland does not have. I also have a passion for diving and a range of dive sites and images from them that I could use for my project.
 I explored other diving websites in Ireland, such as diving.ie for ideas for color theme and structure.
 For the purpose of this project, I chose to include just seven of potentially hundreds of sites in order to demonstrate the nature of the site within the time frame of the project creation.
@@ -65,7 +66,8 @@ Images and videos should be included to showcase shore diving in Ireland.
 The dive site information should be easy to interpret.
 There should be a method for contributors to contact the website administrators.
 
-**Structural planning:**
+### **Structural planning**
+
 In order for the website to achieve these goals it was decided to have four pages; Home, Dive Sites, Media and Contact.
 
 **Home:**
@@ -101,7 +103,8 @@ The form send button should have a message that confirms the form has been submi
 A homepage wireframe was used to form a basic idea of the proposed layout of the site homepage.
 The basic plan for the site was to keep it as uncluttered and minimalistic as possible while providing the required information in a concise manner. As the mean age of divers is generally older, it was intended that the site being as intuitive as possible.
 
-**Style:**
+### **Style**
+
 Background: It was decided after some deliberation not to have a background image running behind the content as this was both distracting and made the content look more cluttered. The decision to leave the background color as white happed towards the end of the design phase when the content had been style and it was decided that this was the most minimalistic and legible approach.
 
 **Color:** 
@@ -128,7 +131,8 @@ The focus of these fonts being to provide the information in a non-distracting m
 
 <a name="ux"></a>
 
-**Index.html:**
+### **Index.html**
+
 The navigation bar: This is a simple and basic list of the four pages within the site. As seen below, the active page is depicted with a line underneath, while a mouseover changes the color to teal indicating it is ready to be clicked on. Inspiration was taken from the code institutes Love Running walkthrough project as I liked the simplicity of the design and the theme fitted well with my website plan.
 
 **Icon:**
@@ -146,6 +150,51 @@ The flow of this page means that a user looking for dive sites will be redirecte
 The footer contains links to various social media; Facebook, Twitter, YouTube and Instagram. 
 These links are done using Font Awesome icons for aesthetic purposes and to keep the site looking clean and minimal. This theme was again taken from the Love Running walkthrough as it was simple and efficient.
 
-**dive-sites.html**
-The dropdown menu: This was added after deciding to remove the original second navigation bar that was being used to display the counties breakdown of dive sites. The color code is within keeping with the website theme and allows the user quick access to the county they would like to dive in.
+### **dive-sites.html**
 
+**The dropdown menu:**
+This was added after deciding to remove the original second navigation bar that was being used to display the counties breakdown of dive sites. The color code is within keeping with the website theme and allows the user quick access to the county they would like to dive in.
+
+The drop-down menu is teal in color and turns grey on mouse over, the selected dive site is shown with a light grey background. A walkthrough on how to create this dropdown was found on freecodecamp.org.
+
+**The dive card:**
+Each dive is placed on a card, this card shows a shadow as it is moused over, a simple asthetilly pleasing feature that makes the card appear lifted out from the page. The dive details are displayed within. This feaure was found on W3 schools and sample code altered and used here.
+
+A Font Awesome icon was used to depict the dive site name. The important details are displayed along the top of the card, such as diver skill level and accessibility of the site as well as maximum depth. These are things divers look for when choosing a dive site and in a more developed version of the website would be options a user could filter sites by.
+A basic write up on the site allows the diver to gain enough knowledge on how to dive the site that they can execute the dive effectively. A google maps link shows the user the exact location for the site.
+Return to top: A top of page button is provided at the bottom of the dive sites page as this could become quite a long list in a more developed website.
+However, if the site was o be developed further, a choice to have separate pages for each county may be made to enable a better flow through the website and create a better user experience.
+
+### **media.html**
+
+**Photos section:**
+This was done using a basic grid layout with three columns on a PC or laptop and two on mobile device or those less than 800px in width.
+Other options were considered but eventually it was decided that this was the most aesthetically pleasing with the images being large enough to be viewed well by even visually impaired users on a PC or laptop. This is a similar theme to what was done in the Love Running walkthrough project as this struck me as a very aesthetic way to display images.
+
+**Video section:**
+This involved the embedded links to YouTube videos. Clicking on the videos allows the user to view the video within the website or by clicking the title the viewer can be taken to YouTube. 
+
+The videos do not autoplay and play muted initially to provide a smooth user experience. Videos are displayed in rows of two on Pc or laptop and 1 on screens below 800px in width.
+
+### **contact.html**
+
+The banner images: The contact page features banner images in keeping with the theme of the home page. 
+These images once again break up the text and make the page pleasing to the eye.
+The contact form: The form enables the user to input their name and email as well as a message. These fields are all set as required. There is also radio buttons to allow the user to decide if they want to receive email alerts pertaining to the addition of new dive sites.
+When the user clicks the Send Message button, it takes them to thankyou.html. This page cannot be accessed any other way, its only purpose is to inform the user that their message has been sent.
+
+### **thankyou.html**
+
+This page contains a link to the index.html, the home page to return the user to home. At present the “Send Message” button is just a link rather than an actual button on a form, this was due to the nature of the project site but would be different in a working site.
+
+**Further features I would implement:**
+
+If I was to get the opportunity to build this site again to become an actual live site, there are some changes that I would like to make.
+
+*Dive sites: This is the page that I would like to make the most changes to. As there are many more than seven dive sites in Ireland, a continuous list would not be a very viable option. I would instead have a drop-down menu for each county and these links would take the user to separate pages with their own drop-down menus for each dive site.
+*The main dive sites page would have a map with clickable pins depicting the sites that would link the user to the site.
+*I would have a search option and the option to filter by depth, skill level, location etc.
+*I was also considering the option of having a “comments” section for each dive to allow divers to make suggestions and leave comments about specific sites.
+*Media: Media would be rearranged to allow for a write up about each image, ie. Location it was taken in, time of year, life that is shown etc. Videos would be the same.
+*Contact page: There is no back end to the contact page, so for now, hitting “send message” just links the user to a thank you page with a link back to the home page. If this became a live site the thank you would ideally self-direct back to the home page after a certain time frame has passed.
+*Other elements to change: A potential of having a user account option so that users could save dives they want to do, comment on dives and possibly even a separate place to log dives.
