@@ -102,6 +102,8 @@ The form send button should have a message that confirms the form has been submi
 A homepage wireframe was used to form a basic idea of the proposed layout of the site homepage.
 The basic plan for the site was to keep it as uncluttered and minimalistic as possible while providing the required information in a concise manner. As the mean age of divers is generally older, it was intended that the site being as intuitive as possible.
 
+![Wire frame of home page](assets/images/readme-images/wireframe.jpg)
+
 ### **Style**
 
 Background: It was decided after some deliberation not to have a background image running behind the content as this was both distracting and made the content look more cluttered. The decision to leave the background color as white happed towards the end of the design phase when the content had been style and it was decided that this was the most minimalistic and legible approach.
@@ -117,6 +119,8 @@ The colors eventually selected for use were;
 * Black #000 -used for text as black on white is widely known as the most legible combination of colors.
 
 The white background helped the banner images and images in the gallery page to pop out as well as heightening the pop of color in the icon used.
+
+![Colors in use](assets/images/readme-images/picture4.jpg)
 
 **Fonts:**
 Fonts were selected based on what was clear and easy to read as well as feeling like they were suited for a diving-based theme. 
@@ -135,30 +139,46 @@ The focus of these fonts being to provide the information in a non-distracting m
 
 The navigation bar: This is a simple and basic list of the four pages within the site. As seen below, the active page is depicted with a line underneath, while a mouseover changes the color to teal indicating it is ready to be clicked on. Inspiration was taken from the code institutes Love Running walkthrough project as I liked the simplicity of the design and the theme fitted well with my website plan.
 
+![Navigation bar](assets/images/readme-images/picture5.jpg)
+
 **Icon:**
-The top icon was used throughout the page to provide a page break between the navigation bar and the start of the content. This is a simple and aesthetically pleasing symbol that reiterated the theme of the page. Initially I did not include this image but felt there was very little tying each page together unti it was added. The round shape contrasts well with the otherwise quite blocky theme of the website.
+The top icon was used throughout the page to provide a page break between the navigation bar and the start of the content. This is a simple and aesthetically pleasing symbol that reiterated the theme of the page. Initially I did not include this image but felt there was very little tying each page together until it was added. The round shape contrasts well with the otherwise quite blocky theme of the website.
+
+![Icon](assets/images/readme-images/picture6.jpg)
 
 **Banner images:** 
 This trio of images was chosen to form the banner instead of using a single image as they worked well together and provided an appealing insight into the websites theme. The link box displayed on-top of the images invites the used to explore further by following the link. This link will take the user to the dive sites page.
+
+![Banner images](assets/images/readme-images/picture7.jpg)
 
 **Contact link:** 
 This section is here to take the user directly to the contact form. By clicking contact us here the user gets transported to the contact page where they can fill out the form.
 This is intended to guide the user through the site. 
 The flow of this page means that a user looking for dive sites will be redirected to the dive sites page by the find out more button. A user looking to get in contact can click the get in contact link and find the contact form, allowing for a smooth progression through the site.
 
+![Link](assets/images/readme-images/picture8.jpg)
+
 **Footer:** 
 The footer contains links to various social media; Facebook, Twitter, YouTube and Instagram. 
 These links are done using Font Awesome icons for aesthetic purposes and to keep the site looking clean and minimal. This theme was again taken from the Love Running walkthrough as it was simple and efficient.
+
+![Footer](assets/images/readme-images/picture9.jpg)
 
 ### **dive-sites.html**
 
 **The dropdown menu:**
 This was added after deciding to remove the original second navigation bar that was being used to display the counties breakdown of dive sites. The color code is within keeping with the website theme and allows the user quick access to the county they would like to dive in.
 
+![Dropdown button](assets/images/readme-images/picture10.jpg) 
+
 The drop-down menu is teal in color and turns grey on mouse over, the selected dive site is shown with a light grey background. A walkthrough on how to create this dropdown was found on freecodecamp.org.
+
+![Dropdown menu](assets/images/readme-images/picture11.jpg)
 
 **The dive card:**
 Each dive is placed on a card, this card shows a shadow as it is moused over, a simple asthetilly pleasing feature that makes the card appear lifted out from the page. The dive details are displayed within. This feaure was found on W3 schools and sample code altered and used here.
+
+![Dive info card](assets/images/readme-images/picture12.jpg)
 
 A Font Awesome icon was used to depict the dive site name. The important details are displayed along the top of the card, such as diver skill level and accessibility of the site as well as maximum depth. These are things divers look for when choosing a dive site and in a more developed version of the website would be options a user could filter sites by.
 A basic write up on the site allows the diver to gain enough knowledge on how to dive the site that they can execute the dive effectively. A google maps link shows the user the exact location for the site.
@@ -171,21 +191,32 @@ However, if the site was o be developed further, a choice to have separate pages
 This was done using a basic grid layout with three columns on a PC or laptop and two on mobile device or those less than 800px in width.
 Other options were considered but eventually it was decided that this was the most aesthetically pleasing with the images being large enough to be viewed well by even visually impaired users on a PC or laptop. This is a similar theme to what was done in the Love Running walkthrough project as this struck me as a very aesthetic way to display images.
 
+![Photos section](assets/images/readme-images/picture13.jpg)
+
 **Video section:**
 This involved the embedded links to YouTube videos. Clicking on the videos allows the user to view the video within the website or by clicking the title the viewer can be taken to YouTube. 
 
 The videos do not autoplay and play muted initially to provide a smooth user experience. Videos are displayed in rows of two on Pc or laptop and 1 on screens below 800px in width.
+
+![Videos section](assets/images/readme-images/picture14.jpg)
 
 ### **contact.html**
 
 The banner images: The contact page features banner images in keeping with the theme of the home page. 
 These images once again break up the text and make the page pleasing to the eye.
 The contact form: The form enables the user to input their name and email as well as a message. These fields are all set as required. There is also radio buttons to allow the user to decide if they want to receive email alerts pertaining to the addition of new dive sites.
+
+![Banner images](assets/images/readme-images/picture15.jpg)
+
 When the user clicks the Send Message button, it takes them to thankyou.html. This page cannot be accessed any other way, its only purpose is to inform the user that their message has been sent.
+
+![Contact Form](assets/images/readme-images/picture16.jpg)
 
 ### **thankyou.html**
 
 This page contains a link to the index.html, the home page to return the user to home. At present the “Send Message” button is just a link rather than an actual button on a form, this was due to the nature of the project site but would be different in a working site.
+
+![Message sent](assets/images/readme-images/picture17.jpg)
 
 **Further features I would implement:**
 
@@ -270,6 +301,8 @@ Testing was mostly done by me and some friends, three of which are software deve
 * Many Font Awesome icons not displaying. Issue not solved so icons removed.
 * Font Awesome icons not leaving space between icon and text. Issue solved by giving icon a class and giving this a margin.
 * Contact form sitting to the left of the screen and refusing positioning attempts. Grid used to structure it.
+
+![Contact form bug](assets/images/readme-images/picture18.jpg)
 
 ------------------------------------------------------------------
 
