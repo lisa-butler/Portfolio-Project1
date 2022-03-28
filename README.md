@@ -16,15 +16,14 @@
 ## Contnets
 
  1. [User Experience](#ux)
- 2. [Website Features](#features)  
- 3. [ Features Left to Implement ](#left)  
- 4. [ Technology used ](#tech) 
- 5. [ Testing ](#testing)  
- 6. [ Bugs ](#bugs)  
- 7. [ Deployment](#deployment)
- 8. [ Credits](#credits)
- 9. [ Content](#content)  
- 10. [ Acknowledgements](#acknowledgements)  
+ 2. [Website Features](#features)   
+ 3. [Technology Used](#tech) 
+ 4. [Testing](#testing)  
+ 5. [Bugs](#bugs)  
+ 6. [Deployment](#deploy)
+ 7. [Credits](#credits)
+ 8. [Content](#content)  
+
 
 
 ## User Experience 
@@ -126,6 +125,7 @@ The fonts chosen were;
 	-Sans-Serif
 The focus of these fonts being to provide the information in a non-distracting manner that was viable for the visually impaired user or someone trying to use the site on a mobile device.
 
+------------------------------------------------------------------
 
 ## Website Features
 
@@ -198,3 +198,118 @@ If I was to get the opportunity to build this site again to become an actual liv
 * Media: Media would be rearranged to allow for a write up about each image, ie. Location it was taken in, time of year, life that is shown etc. Videos would be the same.
 * Contact page: There is no back end to the contact page, so for now, hitting “send message” just links the user to a thank you page with a link back to the home page. If this became a live site the thank you would ideally self-direct back to the home page after a certain time frame has passed.
 * Other elements to change: A potential of having a user account option so that users could save dives they want to do, comment on d dives and possibly even a separate place to log dives.
+
+------------------------------------------------------------------
+
+## Technologies Used 
+
+<a name="tech"></a>
+### **Languages** 
+
+The languages used in this project were;
+
+    * HTML5
+    * CSS3
+
+### **Frameworks/Libraries/programs:**
+
+* Font Awesome: Used throughout the website for icons.
+* Google Fonts: Ubuntu was used for the main content of the project, obtained through Google Fonts.
+* GitHub: Used to store the project and to deploy the finished project.
+* Fork: This was used as a local place to push code to and to pull from the Git repository.
+* Brackets text editor: This was used to write the code locally.
+* Bootstrap was considered but at too late a stage in the project.
+
+------------------------------------------------------------------
+
+## Troubleshooting and testing
+
+<a name="test"></a>
+
+## **Troubleshooting:**
+Many of the issues that arouse and required troubleshooting were due to item positioning on the screen. This was an issue while creating the site initially and later when formatting the site to make it responsive for mobile devices. In retrospect, if I was creating this site gain, I would use grid throughout as a positioning tool. As it stands, I started by using Flexbox but consistently found it was not having the desired outcome and ultimately used Grid in the final stages of responsive design editing. 
+Better planning before beginning development would be beneficial too. I would have liked to use Bootstrap to make the site more responsive.
+
+## **Testing:**
+Testing was mostly done by me and some friends, three of which are software developers, to determine the usability and functionality of the site.
+
+    **Testing links and forms:**
+    
+    * Navigation links are working and bring the user to the correct page. Yes.
+    * The home page “Find out more here” link is working and tkes user to dive sites page. Yes.
+    * The “Contact us here” link on the homepage is working and takes user to the contact page. Yes.
+    * The social media links all work and take users to the correct social media. Yes.
+    * The dropdown menu options each link the user to the correct portion of the dive sites page. Yes.
+    * The google maps link for the dive site works for each site and takes user to the correct location on maps. Yes.
+    * The “Return to top” link at the bottom of the page brings the user back to the top of the dive sites page. Yes.
+    * The Youtube videos take the user to the correct video on Youtube when their title is clicked on. Yes.
+    * The “Send Message” button takes the user to the thankyou.html page when clicked on. 
+    * The “Return to site” button takes the user back to the home page of the site when clicked on.
+    
+    **Testing other elements:** 
+    
+    * Images were all present and viewable without any gaps. Yes.
+    * The videos played both embedded and in Youtube. Yes.
+    * The dive sites cards fitted the content and text was legible and formatted in an intuitive reading style. Yes.
+    * Navigation of the site was intuitive. Yes.
+    * The dive sites dropdown was clarly a dropdown. Changed to have a drop down symbol.
+
+------------------------------------------------------------------
+
+## Bugs
+
+<a name="bugs"></a>
+
+## **Bugs Found:**
+
+* In the contact form, on mousing over the input boxes, they merged with the background and disappeared. This was solved by removing the hover function.
+* Content on dive sites page was squashed together when on mobile view (screens less than 800px in width). Issue solved by rearranging image and text positioning.
+* Cards on dive site page overlapping each other. Solved by positioning each card within a div.
+* First name, last name and email address merging onto the same line in contact form. Solved by placing first and last name and email in separate divs.
+* Sub menu for dive sites locations broken down into counties not aesthetically pleasing. Issue solved by using a dropdown menu.
+* Many Font Awesome icons not displaying. Issue not solved so icons removed.
+* Font Awesome icons not leaving space between icon and text. Issue solved by giving icon a class and giving this a margin.
+* Contact form sitting to the left of the screen and refusing positioning attempts. Grid used to structure it.
+
+------------------------------------------------------------------
+
+## Deployment
+
+<a name="deploy"></a>
+
+* Deployment of the site via github was done using the following steps;
+* After logging into GitHub I located my repository for my Portfolio Project 1. 
+* I then clicked the "Settings" button at the top of my repository
+* In settings I scrolled down until I found the "GitHub Pages" section which has a banner informing me that it now had its own section. I clicked the link and was taken to the pages section.
+* Under "Source" option I clicked the dropdown called "None" and select "Master Branch".
+* The page automatically refreshed.
+* I was told that my site was deploying, and a link was displayed. After about a minute and a refresh there was a tick present next to the link and my site was deployed and live.
+
+------------------------------------------------------------------
+
+## Credits and Acknowledgements
+
+<a name="credits"></a>
+
+### **Credits:**
+
+* Images and Video: All image content used in this website was taken by Lisa Butler using a GoPro Hero 7.
+* Icon: The icon image was free from istockphoto.com (https://www.istockphoto.com/).
+* Code: Some code snippets were taken and adjusted for purpose from W3Schools (https://www.w3schools.com/), Stack Overflow (https://www.w3schools.com/) and FreeCodeCamp (https://www.freecodecamp.org/).
+* Some code used in the Love Running Challenge was used and changed for purpose.
+
+
+### **Acknowledgements:*** 
+
+* My mentor Gerard McBride for pointers and overall reviewing.
+* My software developer friends (Joshua Butler-Overstock Ireland and Glenn Gilmartin-Overstock Ireland) for their advice and patience.
+* My classmate Alan Bushell for advice and encouragement on website structuring and writing a README.
+
+------------------------------------------------------------------
+
+## Content and resources
+
+<a name="content"></a> 
+
+* All content was written by the developer as part of an academic exercise for the Code Institute.
+* All images and videos were taken by the developer using a GoPro Hero 7.
