@@ -285,6 +285,30 @@ Testing was mostly done by me and some friends, three of which are software deve
 * Navigation of the site was intuitive. Yes.
 * The dive sites dropdown was clarly a dropdown. Changed to have a drop down symbol.
 
+
+**Testing using Google Lighthouse:**
+
+I used Google Lighthouse via devtools to assess the website.
+
+![Home page readout](assets/images/readme-images/picture19.jpg)
+
+![Dive sites page readout](assets/images/readme-images/picture20.jpg)
+
+    This showed some issues with the page, on closer inspection they were as below;
+    
+![Dive sites issues readout](assets/images/readme-images/picture21.jpg)    
+
+    These issues were explored and deemed minor for the time being, ths is something i would repair for a site that was going to be in use but for the purposes of this project these values were deemed acceptable.
+    
+    
+![Media page readout](assets/images/readme-images/picture22.jpg)
+
+![Contact page readout](assets/images/readme-images/picture23.jpg)
+
+    The issues highlighted in acessibility were minor and deemed not important for this current project, they can be seen on the readout below.
+
+![Contact page issues readout](assets/images/readme-images/picture24.jpg)
+
 ------------------------------------------------------------------
 
 ## Bugs
